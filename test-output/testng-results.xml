@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="27" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing JPetStore" duration-ms="862998" started-at="2020-04-01T00:54:14 CEST" finished-at="2020-04-01T01:08:37 CEST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="320605" started-at="2020-04-01T00:54:14 CEST" finished-at="2020-04-01T00:59:35 CEST">
+      <class name="tests.PetStoreMenuTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.PetStoreMenuTest@7494e528]" name="setup" is-config="true" duration-ms="10086" started-at="2020-04-01T00:54:31 CEST" finished-at="2020-04-01T00:54:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="linkToRightPageTest()[pri:0, instance:tests.PetStoreMenuTest@7494e528]" name="linkToRightPageTest" duration-ms="2302" started-at="2020-04-01T00:54:41 CEST" finished-at="2020-04-01T00:54:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkToRightPageTest -->
+        <test-method status="PASS" signature="topMenuContentTest()[pri:0, instance:tests.PetStoreMenuTest@7494e528]" name="topMenuContentTest" duration-ms="2068" started-at="2020-04-01T00:54:43 CEST" finished-at="2020-04-01T00:54:46 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topMenuContentTest -->
+        <test-method status="PASS" signature="verifyUrlTest()[pri:0, instance:tests.PetStoreMenuTest@7494e528]" name="verifyUrlTest" duration-ms="30194" started-at="2020-04-01T00:54:46 CEST" finished-at="2020-04-01T00:55:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.PetStoreMenuTest@7494e528]" name="afterClass" is-config="true" duration-ms="200" started-at="2020-04-01T00:55:16 CEST" finished-at="2020-04-01T00:55:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PetStoreMenuTest -->
+      <class name="tests.EnterStoreTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.EnterStoreTest@30b8a058]" name="setup" is-config="true" duration-ms="11457" started-at="2020-04-01T00:54:14 CEST" finished-at="2020-04-01T00:54:26 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterTest()[pri:0, instance:tests.EnterStoreTest@30b8a058]" name="enterTest" duration-ms="1295" started-at="2020-04-01T00:54:26 CEST" finished-at="2020-04-01T00:54:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.EnterStoreTest@30b8a058]" name="afterClass" is-config="true" duration-ms="4197" started-at="2020-04-01T00:54:27 CEST" finished-at="2020-04-01T00:54:31 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.EnterStoreTest -->
+      <class name="tests.CartTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.CartTest@9660f4e]" name="setup" is-config="true" duration-ms="9823" started-at="2020-04-01T00:59:15 CEST" finished-at="2020-04-01T00:59:25 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToCartTest()[pri:1, instance:tests.CartTest@9660f4e]" name="addToCartTest" duration-ms="4698" started-at="2020-04-01T00:59:25 CEST" finished-at="2020-04-01T00:59:30 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="totalCostTest()[pri:2, instance:tests.CartTest@9660f4e]" name="totalCostTest" duration-ms="269" started-at="2020-04-01T00:59:30 CEST" finished-at="2020-04-01T00:59:30 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalCostTest -->
+        <test-method status="PASS" signature="clearCookiesTest()[pri:3, instance:tests.CartTest@9660f4e]" name="clearCookiesTest" duration-ms="4284" started-at="2020-04-01T00:59:30 CEST" finished-at="2020-04-01T00:59:34 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.CartTest@9660f4e]" name="afterClass" is-config="true" duration-ms="196" started-at="2020-04-01T00:59:34 CEST" finished-at="2020-04-01T00:59:35 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.RegistrationTest@4bbfb90a]" name="setup" is-config="true" duration-ms="9801" started-at="2020-04-01T00:55:16 CEST" finished-at="2020-04-01T00:55:26 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fillInFormTest()[pri:0, instance:tests.RegistrationTest@4bbfb90a]" name="fillInFormTest" duration-ms="179182" started-at="2020-04-01T00:55:26 CEST" finished-at="2020-04-01T00:58:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInFormTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.RegistrationTest@4bbfb90a]" name="afterClass" is-config="true" duration-ms="246" started-at="2020-04-01T00:58:25 CEST" finished-at="2020-04-01T00:58:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.SignInTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.SignInTest@7c29daf3]" name="setup" is-config="true" duration-ms="9930" started-at="2020-04-01T00:58:25 CEST" finished-at="2020-04-01T00:58:35 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignInTest()[pri:0, instance:tests.SignInTest@7c29daf3]" name="SignInTest" duration-ms="40033" started-at="2020-04-01T00:58:35 CEST" finished-at="2020-04-01T00:59:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SignInTest@7c29daf3]" name="afterClass" is-config="true" duration-ms="206" started-at="2020-04-01T00:59:15 CEST" finished-at="2020-04-01T00:59:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="235921" started-at="2020-04-01T00:59:35 CEST" finished-at="2020-04-01T01:03:31 CEST">
+      <class name="tests.PetStoreMenuTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.PetStoreMenuTest@3b088d51]" name="setup" is-config="true" duration-ms="7749" started-at="2020-04-01T00:59:47 CEST" finished-at="2020-04-01T00:59:55 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="linkToRightPageTest()[pri:0, instance:tests.PetStoreMenuTest@3b088d51]" name="linkToRightPageTest" duration-ms="1557" started-at="2020-04-01T00:59:55 CEST" finished-at="2020-04-01T00:59:56 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkToRightPageTest -->
+        <test-method status="PASS" signature="topMenuContentTest()[pri:0, instance:tests.PetStoreMenuTest@3b088d51]" name="topMenuContentTest" duration-ms="1074" started-at="2020-04-01T00:59:56 CEST" finished-at="2020-04-01T00:59:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topMenuContentTest -->
+        <test-method status="PASS" signature="verifyUrlTest()[pri:0, instance:tests.PetStoreMenuTest@3b088d51]" name="verifyUrlTest" duration-ms="30050" started-at="2020-04-01T00:59:58 CEST" finished-at="2020-04-01T01:00:28 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.PetStoreMenuTest@3b088d51]" name="afterClass" is-config="true" duration-ms="1712" started-at="2020-04-01T01:00:28 CEST" finished-at="2020-04-01T01:00:29 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PetStoreMenuTest -->
+      <class name="tests.CartTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.CartTest@15d0c81b]" name="setup" is-config="true" duration-ms="7774" started-at="2020-04-01T01:03:13 CEST" finished-at="2020-04-01T01:03:21 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToCartTest()[pri:1, instance:tests.CartTest@15d0c81b]" name="addToCartTest" duration-ms="4006" started-at="2020-04-01T01:03:21 CEST" finished-at="2020-04-01T01:03:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="totalCostTest()[pri:2, instance:tests.CartTest@15d0c81b]" name="totalCostTest" duration-ms="146" started-at="2020-04-01T01:03:25 CEST" finished-at="2020-04-01T01:03:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalCostTest -->
+        <test-method status="PASS" signature="clearCookiesTest()[pri:3, instance:tests.CartTest@15d0c81b]" name="clearCookiesTest" duration-ms="4053" started-at="2020-04-01T01:03:25 CEST" finished-at="2020-04-01T01:03:29 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.CartTest@15d0c81b]" name="afterClass" is-config="true" duration-ms="1708" started-at="2020-04-01T01:03:29 CEST" finished-at="2020-04-01T01:03:31 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.EnterStoreTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.EnterStoreTest@53f65459]" name="setup" is-config="true" duration-ms="9557" started-at="2020-04-01T00:59:35 CEST" finished-at="2020-04-01T00:59:44 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterTest()[pri:0, instance:tests.EnterStoreTest@53f65459]" name="enterTest" duration-ms="1159" started-at="2020-04-01T00:59:44 CEST" finished-at="2020-04-01T00:59:45 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.EnterStoreTest@53f65459]" name="afterClass" is-config="true" duration-ms="1673" started-at="2020-04-01T00:59:45 CEST" finished-at="2020-04-01T00:59:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.EnterStoreTest -->
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.RegistrationTest@1786dec2]" name="setup" is-config="true" duration-ms="6642" started-at="2020-04-01T01:00:29 CEST" finished-at="2020-04-01T01:00:36 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fillInFormTest()[pri:0, instance:tests.RegistrationTest@1786dec2]" name="fillInFormTest" duration-ms="120826" started-at="2020-04-01T01:00:36 CEST" finished-at="2020-04-01T01:02:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInFormTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.RegistrationTest@1786dec2]" name="afterClass" is-config="true" duration-ms="971" started-at="2020-04-01T01:02:37 CEST" finished-at="2020-04-01T01:02:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.SignInTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.SignInTest@74650e52]" name="setup" is-config="true" duration-ms="7125" started-at="2020-04-01T01:02:38 CEST" finished-at="2020-04-01T01:02:45 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignInTest()[pri:0, instance:tests.SignInTest@74650e52]" name="SignInTest" duration-ms="26474" started-at="2020-04-01T01:02:45 CEST" finished-at="2020-04-01T01:03:11 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SignInTest@74650e52]" name="afterClass" is-config="true" duration-ms="1631" started-at="2020-04-01T01:03:11 CEST" finished-at="2020-04-01T01:03:13 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- FirefoxTest -->
+    <test name="EdgeTest" duration-ms="306372" started-at="2020-04-01T01:03:31 CEST" finished-at="2020-04-01T01:08:37 CEST">
+      <class name="tests.PetStoreMenuTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.PetStoreMenuTest@27a8c74e]" name="setup" is-config="true" duration-ms="10043" started-at="2020-04-01T01:03:43 CEST" finished-at="2020-04-01T01:03:53 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="linkToRightPageTest()[pri:0, instance:tests.PetStoreMenuTest@27a8c74e]" name="linkToRightPageTest" duration-ms="1873" started-at="2020-04-01T01:03:53 CEST" finished-at="2020-04-01T01:03:55 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkToRightPageTest -->
+        <test-method status="PASS" signature="topMenuContentTest()[pri:0, instance:tests.PetStoreMenuTest@27a8c74e]" name="topMenuContentTest" duration-ms="1377" started-at="2020-04-01T01:03:55 CEST" finished-at="2020-04-01T01:03:56 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topMenuContentTest -->
+        <test-method status="PASS" signature="verifyUrlTest()[pri:0, instance:tests.PetStoreMenuTest@27a8c74e]" name="verifyUrlTest" duration-ms="30154" started-at="2020-04-01T01:03:56 CEST" finished-at="2020-04-01T01:04:26 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.PetStoreMenuTest@27a8c74e]" name="afterClass" is-config="true" duration-ms="225" started-at="2020-04-01T01:04:26 CEST" finished-at="2020-04-01T01:04:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PetStoreMenuTest -->
+      <class name="tests.CartTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.CartTest@646d64ab]" name="setup" is-config="true" duration-ms="10121" started-at="2020-04-01T01:08:17 CEST" finished-at="2020-04-01T01:08:27 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToCartTest()[pri:1, instance:tests.CartTest@646d64ab]" name="addToCartTest" duration-ms="4977" started-at="2020-04-01T01:08:27 CEST" finished-at="2020-04-01T01:08:32 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="totalCostTest()[pri:2, instance:tests.CartTest@646d64ab]" name="totalCostTest" duration-ms="261" started-at="2020-04-01T01:08:32 CEST" finished-at="2020-04-01T01:08:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalCostTest -->
+        <test-method status="PASS" signature="clearCookiesTest()[pri:3, instance:tests.CartTest@646d64ab]" name="clearCookiesTest" duration-ms="4328" started-at="2020-04-01T01:08:33 CEST" finished-at="2020-04-01T01:08:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.CartTest@646d64ab]" name="afterClass" is-config="true" duration-ms="217" started-at="2020-04-01T01:08:37 CEST" finished-at="2020-04-01T01:08:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.EnterStoreTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.EnterStoreTest@33f88ab]" name="setup" is-config="true" duration-ms="10576" started-at="2020-04-01T01:03:31 CEST" finished-at="2020-04-01T01:03:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterTest()[pri:0, instance:tests.EnterStoreTest@33f88ab]" name="enterTest" duration-ms="1252" started-at="2020-04-01T01:03:41 CEST" finished-at="2020-04-01T01:03:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.EnterStoreTest@33f88ab]" name="afterClass" is-config="true" duration-ms="390" started-at="2020-04-01T01:03:43 CEST" finished-at="2020-04-01T01:03:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.EnterStoreTest -->
+      <class name="tests.RegistrationTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.RegistrationTest@2d8f65a4]" name="setup" is-config="true" duration-ms="10068" started-at="2020-04-01T01:04:27 CEST" finished-at="2020-04-01T01:04:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="fillInFormTest()[pri:0, instance:tests.RegistrationTest@2d8f65a4]" name="fillInFormTest" duration-ms="170020" started-at="2020-04-01T01:04:37 CEST" finished-at="2020-04-01T01:07:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillInFormTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.RegistrationTest@2d8f65a4]" name="afterClass" is-config="true" duration-ms="233" started-at="2020-04-01T01:07:27 CEST" finished-at="2020-04-01T01:07:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.SignInTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.SignInTest@1b68ddbd]" name="setup" is-config="true" duration-ms="9993" started-at="2020-04-01T01:07:27 CEST" finished-at="2020-04-01T01:07:37 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SignInTest()[pri:0, instance:tests.SignInTest@1b68ddbd]" name="SignInTest" duration-ms="40015" started-at="2020-04-01T01:07:37 CEST" finished-at="2020-04-01T01:08:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SignInTest@1b68ddbd]" name="afterClass" is-config="true" duration-ms="215" started-at="2020-04-01T01:08:17 CEST" finished-at="2020-04-01T01:08:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Testing JPetStore -->
+</testng-results>
